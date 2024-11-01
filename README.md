@@ -1,24 +1,24 @@
-Control de Pantalla OLED con Raspberry Pi Pico
+OLED Display Control with Raspberry Pi Pico
 
-Este proyecto muestra cómo controlar una pantalla OLED (SSD1306) desde la Raspberry Pi Pico mediante I2C, con un ejemplo que despliega el mensaje "HOLA".
+This project demonstrates how to control an OLED display (SSD1306) using the Raspberry Pi Pico via I2C, with an example that displays the message "HOLA PROFE".
 
-Requisitos
+Requirements
 
 Raspberry Pi Pico
-Pantalla OLED I2C (ej. SSD1306)
-Conexiones I2C en GPIO 4 (SDA) y GPIO 5 (SCL) de la Pico.
-Funcionalidades
+I2C OLED Display (e.g., SSD1306)
+I2C connections on GPIO 4 (SDA) and GPIO 5 (SCL) of the Pico.
+Features
 
-Inicialización I2C para comunicación con la OLED.
-Secuencia de Inicio: Configura la pantalla.
-Limpieza de Pantalla: Borra el contenido de la OLED.
-Dibujo de Caracteres: Usa una tabla de 8x8 pixeles para representar letras.
-Dibujo de Texto: Permite mostrar palabras o frases.
-Ejecución
+I2C Initialization for OLED communication.
+Startup Sequence: Configures the OLED display.
+Screen Clearing: Clears the OLED content.
+Character Rendering: Uses an 8x8 pixel table to display letters.
+Text Rendering: Displays words or phrases on the OLED.
+Running the Program
 
-Compila el código usando el SDK de Raspberry Pi Pico.
-Carga el binario en la Pico para ver el mensaje en la pantalla OLED.
-Ejemplo de Código
+Compile the code using the Raspberry Pi Pico SDK.
+Flash the binary to the Pico to see the message on the OLED display.
+Code Example
 
 c
 Copiar código
@@ -33,4 +33,5 @@ int main() {
     
     return 0;
 }
-Este fragmento muestra el texto "HOLA" en la primera línea de la pantalla.
+This example displays the text "HOLA" on the first line of the OLED.
+
