@@ -1,6 +1,6 @@
 OLED Display Control with Raspberry Pi Pico
 
-This project demonstrates how to control an OLED display (SSD1306) using the Raspberry Pi Pico via I2C, with an example that displays the message "HOLA PROFE".
+This project demonstrates how to control an OLED display (SSD1306) using the Raspberry Pi Pico via I2C, with an example that displays the message "HOLA".
 
 Requirements
 
